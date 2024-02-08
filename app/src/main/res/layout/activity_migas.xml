@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MigasActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#C1FF72"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/migas" />
+
+    <ScrollView
+        android:layout_width="380dp"
+        android:layout_height="610dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HISTORIA"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="25dp"
+                android:text="Las migas extremeñas se introdujeron en nuestra cultura en el periodo en el que la península formaba parte del Imperio árabe. Siendo el tharid una de las primeras versiones de esta receta que, según la tradición musulmana, era el plato favorito de Mahoma. En Al-Ándalus este plato se ofrecía a los visitantes de las clases altas, elaborándose con migas de pan candeal vaporizadas en un alcuzcucero y amasadas con grasa animal o aceite de oliva, tratadas en calor. " />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTES"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="25dp"
+                android:text="1/2 kg de pan blanco asentado 1 cabeza de ajos 50 g de panceta curada, bacon ahumado  o jamón troceado 1 chorizo de guiso Pimiento rojo y verde Pimentón, una cucharada rasa Aceite de oliva 1 taza de agua Sal" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ELABORACIÓN"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="10dp"
+                android:paddingBottom="25dp"
+                android:text="Cortar el pan en rebanadas finas y regarlas con la taza de agua salada. Las rebanadas deben quedar mojadas por igual. Dejar reposar 2 horas. Picar el chorizo y tocino y los rehogar en el aceite. Retirar y reservar. Saltear los ajos enteros con un corte lateral profundo en la grasa del tocino y chorizo. Pasados un par de minutos poner el pimiento rojo y verde en tiras, y cuando estén tiernos, añadir una cucharadita de pimentón, cuidando que no llegue a freír. Incorporar rápidamente el pan. Dar vueltas y cortar las rebanadas con la espumadera. Cuando esté bien migado y las migas doradas y sueltas añadir el tocino y chorizo salteados previamente y seguir dando vueltas hasta que esté bien dorado y ligado el conjunto. Podemos servir con huevo frito o lomo a la plancha. En la elaboración, el chorizo se puede suprimir y dejar solo un poquito de tocino. Puedes también añadir chistorra, salchichas frescas o sustitutivos veganos al gusto. " />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

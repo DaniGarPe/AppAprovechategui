@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SalmorejoActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#C1FF72"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/salmorejo" />
+
+    <ScrollView
+        android:layout_width="380dp"
+        android:layout_height="610dp"
+        android:fillViewport="false"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:scrollbarStyle="outsideInset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HISTORIA"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="25dp"
+                android:text="El salmorejo, joya de la gastronomía cordobesa, tiene su origen en los primeros tiempos de la humanidad en los que se elaboraban platos triturando mecánicamente los alimentos. La historia culinaria del salmorejo posee dos hitos históricos importantes, el primero es la incorporación del tomate y el segundo fue el advenimiento de la electricidad en los procesos culinarios con la incorporación de electródomesticos. " />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTES"
+                android:textAlignment="viewStart"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="25dp"
+                android:text="150 ml de aceite de oliva virgen extra 1 Kg. de tomates rojos bien maduros. 200 g. de pan de telera cordobesa o si no encontráis pan de trigo blanco (mejor que tenga un día o dos) 1 diente de ajo de Montalbán o similar (la cantidad de ajo al gusto, mucha gente le añade sólo medio) 10 g. de sal (al gusto)" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ELABORACIÓN"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="25dp"
+                android:text="Limpiar bien los tomates y cortarlos en cuartos. Añadirlos a un bol grande y triturar con la batidora hasta que quede una salsa líquida. Pasar esta salsa por un colador para retirar posibles trozos de piel y pequeñas pepitas que hayan quedado al batirlos. Cortar el pan en trozos pequeños y añadir a la crema de tomate anterior. Dejar reposar durante unos 10 minutos. Así ayudamos a que el pan se ablande si está muy duro y será mucho más fácil de batir. Pelar el ajo y, como se va a usar en crudo, quitar el centro para que no repita. Añadir al tomate con el pan. Echar el aceite de oliva virgen extra y la sal. Pasarlo todo por la batidora hasta que nos quede lo más fino posible. Probar si está bien de sal y si no rectificar con un poco más. Sólo queda meter el bol en la nevera y dejar que se enfríe. En un par de horas estará bien fresquito y perfecto para probar el mejor salmorejo cordobés. A la hora de la presentación, lo mejor es ponerlo en un plato hondo o cuenco. Espolvorear con unas virutas de jamón serrano o ibérico con un punto (10 segundos) de microondas. Así conseguiréis un toque crujiente. Además, el huevo cocido y unas gotitas de aove le quedan perfecto. Pero no tiene por qué quedar ahí el tema, el consejo regulador del salmorejo también nos recomienda: pepino, pimiento, cebolla, zanahoria, remolacha o melocotón. Esto es a vuestro gusto, buen provecho." />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
